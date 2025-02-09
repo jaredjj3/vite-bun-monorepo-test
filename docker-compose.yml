@@ -10,8 +10,6 @@ services:
         - action: sync
           path: ./apps/web
           target: /app/apps/web
-          ignore:
-            - node_modules
         - action: sync
           path: ./packages
           target: /app/packages

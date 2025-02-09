@@ -1,1 +1,1 @@
-export const message = 'Hello, world!';
+export const PACKAGES_MESSAGE = 'World';
