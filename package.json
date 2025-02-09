@@ -5,6 +5,10 @@
     "apps/*",
     "packages/*"
   ],
+  "scripts": {
+    "local": "cd apps/web && bun run dev",
+    "docker": "docker compose up --build --watch"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
