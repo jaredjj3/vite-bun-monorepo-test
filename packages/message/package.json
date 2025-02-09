@@ -1,0 +1,7 @@
+{
+  "name": "@foo/message",
+  "version": "0.0.0",
+  "private": true,
+  "module": "index.ts",
+  "type": "module"
+}
