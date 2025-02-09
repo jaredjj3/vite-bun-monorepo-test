@@ -1,15 +1,18 @@
 # vite-bun-monorepo-test
 
-To install dependencies:
+Dependencies:
 
-```bash
-bun install
+- [Docker](https://www.docker.com/get-started/) Docker version 27.5.1, build 9f9e405
+- [Bun](https://bun.sh/) 1.2.2
+
+To run locally:
+
+```
+bun run local
 ```
 
-To run:
+To run in Docker:
 
-```bash
-bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.2.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+bun run docker
+```
